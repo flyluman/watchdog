@@ -1,0 +1,15 @@
+#ifndef LOGGER_H
+#define LOGGER_H
+
+#include <string>
+
+class Logger {
+public:
+    static void initialize(const std::string& logFilePath);
+    static void log(const std::string& message);
+
+private:
+    static std::string logFilePath;
+};
+
+#endif

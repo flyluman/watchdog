@@ -1,0 +1,7 @@
+processes:
+  - name: tmp_1
+    command: ./tmp_1
+    parameters: "10"
+  - name: tmp_2
+    command: ./tmp_2
+    parameters: ""
